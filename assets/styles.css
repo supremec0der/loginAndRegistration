@@ -1,0 +1,68 @@
+
+.login-register-form-section {
+    max-width: 350px;
+    margin-top: 25%;
+    margin-left:25%;
+}
+
+.login-register-form-section i {
+    width: 10px;
+}
+
+.login-register-form-section .nav-tabs>li>a {
+    color: #2abb9b;
+}
+
+.login-register-form-section .nav-tabs>li.active>a {
+    background-color: #2abb9b;
+    border-color: #2abb9b;
+    color: white;
+}
+
+.login-register-form-section .nav-tabs>li>a,
+.login-register-form-section .nav-tabs>li.active>a {
+    width: 160px;
+    text-align: center;
+    border-radius: 0;
+}
+
+.login-register-form-section .nav-tabs {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.login-register-form-section .btn-custom {
+    width: 100%;
+    background-color: #2abb9b;
+    border-color: #2abb9b;
+    margin-bottom: 0.5em;
+    border-radius: 0;
+}
+
+.login-register-form-section .btn-custom:hover {
+    width: 100%;
+    background-color: #48A497;
+    border-color: #2abb9b;
+}
+
+.login-register-form-section .form-group {
+    padding: 0 20px;
+}
+.container {
+    background-image: url('/static/sfwallpaper.jpg');
+    background-image: no-repeat;
+    background-size: cover;
+    height: 60em;
+    width: 50em;
+    margin: 0;
+    padding: 0;
+}
+.pull-right {
+    color: whitesmoke;
+}
+.rememberme {
+    color: whitesmoke
+}
+.class {
+
+}

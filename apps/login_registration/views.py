@@ -50,7 +50,8 @@ def login(request):
             user = User.objects.get(email=request.POST['login_email'])
             
             if bcrypt.checkpw(request.POST['login_password'].encode(), user.password.encode()):
-                request.session['first_name'] = user.first_name 
+                request.session['first_name'] = user.first_name
+                request.session['id'] = user.id 
                 print("password match")
 
                 return render(request, 'login_registration/success.html')
